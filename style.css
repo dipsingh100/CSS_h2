@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    border: 8px groove rgb(81, 255, 0);
+}
+
+.container-1{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.box{
+    border: 5px solid red;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    border-radius: 30px;
+}
+
+.box1{
+    width: 280px;
+    height: 108px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.box2{
+    width: 340px;
+    height: 20px;
+    margin-left: -148px;
+    padding: 28px 35px 15px 80px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.box3{
+    width: 325px;
+    height: 102px;
+    padding-top: 12px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 325px;
+    text-align: center;
+    line-height: 34px;
+    font-weight: bold;
+}
+
+.container-2{
+    margin-top: 20px;
+    height: 662px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.circle{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 8px solid grey;
+    background-color: #43a89f;
+    margin-top: 163px;
+    margin-left: 50px;
+}
+
+.circle-text{
+    margin-top: 90px;
+    text-align: center;
+}
+
+.circle-text div{
+    text-decoration: underline;
+    font-style: italic;
+    margin: 15px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.formBox{
+    width: 330px;
+    height: 95%;
+    border: 5px dashed red;
+    text-align: center;
+    margin-left: 290px;
+    background-color: white;
+}
+
+.formBox h2{
+    padding: 20px 0px;
+    color: brown;
+}
+
+.formBox form label{
+    margin-bottom: 2px;
+    color: rgb(172 36 36 / 68%);
+}
+
+input{
+    text-align: center;
+}
+
+.formBox form div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 23px 0px;
+} 
+
+.box6{
+    margin:10px auto;
+    width: 450px;
+    padding: 20px 10px;
+}
+
+.container-3{
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.mbox{
+    width: 350px;
+    height: 245px;
+    text-align: center;
+    background-color: cyan;
+    border: 2px solid green;
+    border-radius: 30px;
+}
+.mbox h2 {
+    font-size: 35px;
+    margin: 20px;
+    color: #673AB7;
+}
+.mbox ul{
+    margin: 20px 30px;
+    color: #3c418c;
+}
+
+.last{
+    height: 285px;
+}
