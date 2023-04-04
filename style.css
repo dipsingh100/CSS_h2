@@ -7,6 +7,7 @@ body{
     height: 100%;
     background-image: url("bg1.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     border: 8px groove rgb(81, 255, 0);
 }
 
@@ -124,10 +125,8 @@ input{
 }
 
 .container-3{
-    height: 650px;
     display: flex;
-    justify-content: space-around;
-    align-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 40px;
     margin-bottom: 50px;
@@ -140,6 +139,7 @@ input{
     background-color: cyan;
     border: 2px solid green;
     border-radius: 30px;
+    margin-bottom: 50px;
 }
 .mbox h2 {
     font-size: 35px;
